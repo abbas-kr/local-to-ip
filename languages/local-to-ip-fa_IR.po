@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Local To IP\n"
+"POT-Creation-Date: 2024-02-13 13:39+0330\n"
+"PO-Revision-Date: 2024-04-02 14:51+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: themplate/dashboard.php:30
+msgid "Status"
+msgstr "وضعیت"
+
+#: themplate/dashboard.php:31
+msgid "set this plugin active or deactive"
+msgstr "از این بخش افزونه را فعال یا غیرفعال کنید"
+
+#: themplate/dashboard.php:105
+msgid "Local Ip"
+msgstr "آی پی شبکه محلی"
+
+#: themplate/dashboard.php:106
+msgid "you can set local ip with <b>ipconfig</b> command in windows command line or <b>ifconfig</b> commad in unix base terminal."
+msgstr "می توانید آی پی محلی را با دستور <b>ipconfig</b> در خط فرمان ویندوز(command line) یا <b>ifconfig</b>  در ترمینال سیستم های بر پایه یونیکس پیدا کنید."
+
+#: themplate/dashboard.php:107
+msgid "or can detect automatically"
+msgstr "یا می تواند به طور خودکار تشخیص دهد"
+
+#: themplate/dashboard.php:111
+msgid "Auto Detect"
+msgstr "تشخیص خودکار"
+
+#: themplate/local-to-ip.php:45
+msgid "This feature uses a sensitive function (shell_exec) which will usually block your server. If you and the server manager are aware of this issue or are using internal web servers (such as wamp or xampp) by uncommenting lines 28 and 31 of the file \"wp-content/plugins/local-to-ip/local-to-ip.php\", you can Enable the feature."
+msgstr "این ویژگی از یک تابع حساس (shell_exec) استفاده می‌کند که معمولاً سرور شما را مسدود می‌کند. اگر شما و مدیر سرور از این مشکل مطلع هستید یا از وب سرورهای داخلی (مانند wamp یا xampp) استفاده می‌کنید، خطوط 28 و 31 فایل \"wp-content/plugins/local-to-ip/local-to-ip.php\" را از حالت کامنت خارج کنید تا این ویژگی را فعال کنید."
+
+#: themplate/dashboard.php:140
+msgid "Force Deactive"
+msgstr "غیرفعالسازی اجباری"
+
+#: themplate/dashboard.php:141
+msgid "You should save this link for emergencies. Click to Save Link:"
+msgstr "شما باید این لینک را برای مواقع اضطراری ذخیره کنید. برای ذخیره لینک کلیک کنید:"
+
+#: themplate/dashboard.php:173
+msgid "More info"
+msgstr "اطلاعات بیشتر"
+
+#: themplate/dashboard.php:174
+msgid "you can contact us in:"
+msgstr "می توانید با ما در تماس باشید:"
+
+#: themplate/dashboard.php:196
+msgid "Save"
+msgstr "ذخیره"
+
+#: themplate/dashboard.php:222
+msgid "availability"
+msgstr "دسترسی"
+
+#: themplate/dashboard.php:223
+msgid "your wordpress site is availbale on"
+msgstr "سایت وردپرس شما از طریق این لینک در دسترس است"
+
+#: themplate/dashboard.php:248
+msgid "we found this ips, select correct one"
+msgstr "ما این آی پی ها را پیدا کردیم، آی پی صحیح را انتخاب کنید"
+
+#. Plugin Name of the plugin/theme
+msgid "Local To IP"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Dynamically replaces localhost URLs with the local IP address."
+msgstr "آدرس IP محلی را به صورت پویا جایگزین آدرس های لوکال هاست می کند."
+
+#. Author of the plugin/theme
+msgid "Abbas Kargar"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://abbaskargar.ir"
+msgstr ""
+
+#~ msgid "or can detect automatically <b>(should uncomment /root/wp-content/plugins/local-to-ip/init.php line 26 and line 29)</b>"
+#~ msgstr "یا میتوانید آن را بصورت خودکار تشخیص دهید <b>(برای اینکار باید  از مسیر /root/wp-content/plugins/local-to-ip/init.php خطوط ۲۶ و ۲۹ را از حالت کامنت خارج کنید )</b>"
